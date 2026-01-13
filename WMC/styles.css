@@ -34,20 +34,31 @@ color: black;
 text-decoration-line: underline;
 }
 
-quiz-container {
-background: white;
-padding: 2rem;
-border-radius: 10px;
-box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-text-align: center;
-width: 300px;
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: auto;
 }
-button {
-padding: 10px 20px;
-margin: 10px;
-cursor: pointer;
-border: none;
-border-radius: 5px;
-background-color: #007bff;
-color: white;
+
+.memory-card {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    position: relative;
+}
+
+.memory-card img.front-face {
+    display: none;
+    width: 100%;
+    background: white;
+}
+
+.memory-card.flip img.front-face {
+    display: block;
+}
+
+.memory-card.flip img.back-face {
+    display: none;
 }

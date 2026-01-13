@@ -1,23 +1,100 @@
-<link rel="stylesheet" href="styles.css">
-<meta charset="utf-8" />
-<title> Author: Jens Adam
-</title>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- ACHTUNG: Der absolute Pfad funktioniert nur auf dem Server! -->
+    <link rel="stylesheet" href="../styles.css">
+    <meta charset="UTF-8"/>
+    <title>Pirate Memory Game</title>
 </head>
 <body>
-<h1> WMC PROJECT </h1>
 
-<h2>Jens Adam </h2>
+    <h2>ANOTHER PIRATE MEMORY GAME</h2>
+    <h2>FOR CHILDREN BETWEEN 4 TO 8</h2> 
+    <h2>A LITTLE LESS PIRATY</h2>
 
-<h3> Pirate-Memory-Game </h3>
+    <section class="memory-game">
+        
+        <!-- Karte 1: Pirat -->
+        <div class="memory-card" data-framework="pirate">
+            <img class="front-face" src="img/Pirat.png" alt="pirate" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="pirate">
+            <img class="front-face" src="img/Pirat.png" alt="pirate" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
 
-<p>
-Enjoy a little <a href = '/~jens. adam/sim' > memory game </a> inspired by the tv-show "little britain"
-</p>
-<h3>
-Quiz
-</h3>
-<p>
-Ready for a small
-<a href = '/~jens. adam/page_1'> Quiz? </a>
-</p>
+        <!-- Karte 2 -->
+        <div class="memory-card" data-framework="bird">
+            <img class="front-face" src="img/Vogel.png" alt="bird" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="bird">
+            <img class="front-face" src="img/Vogel.png" alt="bird" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+
+        <!-- Karte 3 -->
+        <div class="memory-card" data-framework="pistol">
+            <img class="front-face" src="img/Pistole.png" alt="pistol" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="pistol">
+            <img class="front-face" src="img/Pistole.png" alt="pistol" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+          <!-- Karte 4 -->
+        <div class="memory-card" data-framework="sword">
+            <img class="front-face" src="img/Schwert.png" alt="sword" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="sword">
+            <img class="front-face" src="img/Schwert.png" alt="sword" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+
+        <!-- Karte 5 -->
+        <div class="memory-card" data-framework="ship">
+            <img class="front-face" src="img/Schiff.png" alt="ship" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="ship">
+            <img class="front-face" src="img/Schiff.png" alt="ship" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+
+        <!-- Karte 6 -->
+        <div class="memory-card" data-framework="treasure">
+            <img class="front-face" src="img/Schatz.png" alt="treasure" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="treasure">
+            <img class="front-face" src="img/Schatz.png" alt="treasure" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+
+        <!-- Karte 7 -->
+        <div class="memory-card" data-framework="kanon">
+            <img class="front-face" src="img/Kugel.png" alt="kanon" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="kanon">
+            <img class="front-face" src="img/Kugel.png" alt="kanon" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+
+        <!-- Karte 8 -->
+        <div class="memory-card" data-framework="flag">
+            <img class="front-face" src="img/Flagge.png" alt="flag" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="flag">
+            <img class="front-face" src="img/Flagge.png" alt="flag" />
+            <img class="back-face" src="img/back.png" alt="back" />
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
 </body>
+</html>
