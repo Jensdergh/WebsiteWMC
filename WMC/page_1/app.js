@@ -35,4 +35,4 @@ function checkAnswer(userAnswer) {
     Questionload();
 }
 
-Questioninit();
+Questionload();

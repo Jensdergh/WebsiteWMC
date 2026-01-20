@@ -62,3 +62,33 @@ text-decoration-line: underline;
 .memory-card.flip img.back-face {
     display: none;
 }
+
+button {
+    background-color: darkred;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; 
+    display: block;
+    margin: 0 auto;
+} 
+
+div {
+
+max-width: 300px;
+margin: 20px auto; 
+font-family: GeoriaPro;
+}
+
+textarea {
+    width: 100%;
+}
+
+.quiz-container {
+    background: white;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 500px;
+} 

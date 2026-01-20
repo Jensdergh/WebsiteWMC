@@ -1,14 +1,16 @@
 body {
     font-family: "GeorgiaPro";
+    background: linear-gradient(rgba(140, 0, 50, 0.9), black);
+    color: darkred;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: beige;
+    background-color: silver;
 } 
 .quiz-container {
-    background: white;
+    background: gray;
     padding: 5rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -17,8 +19,8 @@ body {
 } 
 
 button {
-    background-color: gold;
-    color: black;
+    background-color: silver;
+    color: darkred;
     border: none;
     padding: 10px 20px;
     cursor: pointer; 
@@ -26,9 +28,16 @@ button {
 } 
 
 button:hover {
-    background-color: orange;
+    background-color: crimson;
 }
 
 a {
-    color: black;
+    color: darkred;
     text-decoration: none;
+}
+
+h1 {
+
+    color: darkred;
+    font-family: GeorgiaPro;
+}
